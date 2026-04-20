@@ -99,7 +99,7 @@ export default function App() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <div className="flex flex-col gap-2 mb-6 md:flex-row md:mb-8">
+              <div className="flex flex-col gap-2 mt-4 mb-6 md:flex-row md:mb-8">
                 <span className="w-fit px-3 py-1.5 bg-brand-white border border-brand-accent rounded-full text-[10px] md:text-[11px] uppercase tracking-wider font-bold text-brand-secondary shadow-sm">
                   Atendimento 100% Online
                 </span>
