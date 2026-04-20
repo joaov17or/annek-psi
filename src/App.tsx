@@ -170,7 +170,7 @@ export default function App() {
               <div className="relative">
                 <div className="absolute -top-4 -left-4 w-24 h-24 bg-brand-accent/30 rounded-full blur-2xl"></div>
                 <img
-                  src="/images/hero.jpg"
+                  src="/annek-psi/images/hero.jpg"
                   alt="Dra. Anne K. Santos Barbosa"
                   className="rounded-3xl shadow-2xl relative z-10 grayscale-[0.1] border-8 border-brand-white"
                   referrerPolicy="no-referrer"
