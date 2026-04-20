@@ -3,6 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import heroImg from "./assets/hero.jpg";
 import { motion } from "framer-motion";
 import {
   ArrowRight,
@@ -170,7 +171,7 @@ export default function App() {
               <div className="relative">
                 <div className="absolute -top-4 -left-4 w-24 h-24 bg-brand-accent/30 rounded-full blur-2xl"></div>
                 <img
-                  src="/annek-psi/images/hero.jpg"
+                  src={heroImg}
                   alt="Dra. Anne K. Santos Barbosa"
                   className="rounded-3xl shadow-2xl relative z-10 grayscale-[0.1] border-8 border-brand-white"
                   referrerPolicy="no-referrer"
