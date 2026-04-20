@@ -128,7 +128,7 @@ export default function App() {
                   <MessageCircle className="w-5 h-5 shrink-0" />
                   <span className="whitespace-nowrap">Agende sua consulta</span>
                 </motion.a>
-                <div className="flex flex-col items-center sm:flex-row sm:justify-start gap-4 px-2 w-full pb-10 md:pb-0">
+                <div className="flex flex-col items-center sm:flex-row sm:justify-start gap-4 px-2 w-full pb-10 md:pb-0 -mt-6">
                   <div className="flex -space-x-2">
                     {[1, 2, 3].map((i) => (
                       <div
